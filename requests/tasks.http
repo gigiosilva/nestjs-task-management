@@ -1,0 +1,28 @@
+### GET TASKS
+GET http://localhost:3000/tasks
+
+### GET TASKS
+GET http://localhost:3000/tasks?status=DONE&search=4
+
+### GET TASK BY ID
+GET http://localhost:3000/tasks/b15395ca-7546-4165-a955-d5a8884dfa5c
+
+### DELETE TASK
+DELETE http://localhost:3000/tasks/0589fa7e-f69e-4778-a649-a11dfbcd0ed4
+
+### ADD TASK
+POST http://localhost:3000/tasks
+content-type: application/json
+
+{
+  "title": "Minha task 4",
+  "description": "Essa é minha taskinha"
+}
+
+### UPDATE TASK
+PATCH http://localhost:3000/tasks/577ccbc5-2d43-40bd-a9c5-857a22dc3b3b/status
+content-type: application/json
+
+{
+  "status": "DONE"
+}
