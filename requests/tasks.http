@@ -1,11 +1,11 @@
 ### GET TASKS
 GET http://localhost:3000/tasks
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdpZ2lvc2lsdmExIiwiaWF0IjoxNjMzNjU0MTI1LCJleHAiOjE2MzM2NTc3MjV9.PT87g2UqODivfcZW1YF-GLy_rBL5vZW4hQpQKKS1tcc
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdpZ2lvc2lsdmExIiwiaWF0IjoxNjMzNzI3MzM1LCJleHAiOjE2MzM3MzA5MzV9.M5D781CTDBgfmsSjhVrqatmN57AN6Qmnla5LYoR4GCY
 
 
 ### GET TASKS
 GET http://localhost:3000/tasks?status=DONE&search=TASK
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdpZ2lvc2lsdmExIiwiaWF0IjoxNjMzNjU0MTI1LCJleHAiOjE2MzM2NTc3MjV9.PT87g2UqODivfcZW1YF-GLy_rBL5vZW4hQpQKKS1tcc
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdpZ2lvc2lsdmEiLCJpYXQiOjE2MzM3MjcyOTksImV4cCI6MTYzMzczMDg5OX0.XxmcnZD6SbavzPN0jxyy_OYq7QY78jx6ohi02aTyLOE
 
 
 ### GET TASK BY ID
@@ -17,10 +17,10 @@ DELETE http://localhost:3000/tasks/0589fa7e-f69e-4778-a649-a11dfbcd0ed4
 ### ADD TASK
 POST http://localhost:3000/tasks
 content-type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdpZ2lvc2lsdmExIiwiaWF0IjoxNjMzNjU0MTI1LCJleHAiOjE2MzM2NTc3MjV9.PT87g2UqODivfcZW1YF-GLy_rBL5vZW4hQpQKKS1tcc
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdpZ2lvc2lsdmEiLCJpYXQiOjE2MzM3MjcyOTksImV4cCI6MTYzMzczMDg5OX0.XxmcnZD6SbavzPN0jxyy_OYq7QY78jx6ohi02aTyLOE
 
 {
-  "title": "Minha task 4",
+  "title": "Minha task 5",
   "description": "Essa é minha taskinha"
 }
 
