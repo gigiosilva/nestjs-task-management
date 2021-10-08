@@ -1,4 +1,4 @@
-import { User } from 'src/auth/user.entity';
+import { User } from '../auth/user.entity';
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { TaskStatus } from './task-status.enum';
