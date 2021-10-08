@@ -1,8 +1,10 @@
 ### GET TASKS
 GET http://localhost:3000/tasks
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdpZ2lvc2lsdmExIiwiaWF0IjoxNjMzNjU0MTI1LCJleHAiOjE2MzM2NTc3MjV9.PT87g2UqODivfcZW1YF-GLy_rBL5vZW4hQpQKKS1tcc
+
 
 ### GET TASKS
-GET http://localhost:3000/tasks?status=DONE&search=4
+GET http://localhost:3000/tasks?status=DONE&search=TASK
 
 ### GET TASK BY ID
 GET http://localhost:3000/tasks/b15395ca-7546-4165-a955-d5a8884dfa5c
@@ -13,6 +15,7 @@ DELETE http://localhost:3000/tasks/0589fa7e-f69e-4778-a649-a11dfbcd0ed4
 ### ADD TASK
 POST http://localhost:3000/tasks
 content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdpZ2lvc2lsdmExIiwiaWF0IjoxNjMzNjU0MTI1LCJleHAiOjE2MzM2NTc3MjV9.PT87g2UqODivfcZW1YF-GLy_rBL5vZW4hQpQKKS1tcc
 
 {
   "title": "Minha task 4",
