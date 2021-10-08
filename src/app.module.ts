@@ -18,6 +18,11 @@ import * as Joi from 'joi';
     TasksModule,
     TypeOrmModule.forRoot({
       type: 'postgres',
+      ssl: process.env.NODE_ENV !== 'dev',
+      extra: {
+        ssl:
+          process.env.NODE_ENV !== 'dev' ? { rejectUnauthorized: false } : null,
+      },
       url: process.env.DATABASE_URL,
       autoLoadEntities: true,
       synchronize: true,
